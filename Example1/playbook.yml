@@ -9,7 +9,7 @@
     loop: [ 'python', 'python-setuptools', 'curl', 'python-dev', 'build-essential', 'python-pip', 'python-mysqldb']
       
   - name: Install MySQL database
-    apt: name={{ item }} state=installed force=yes
+    apt: name={{ item }} state=latest force=yes
     loop: ['mysql_server' ,  'mysql_client']
 
   - name: Start MySQL Server
