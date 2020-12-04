@@ -3,7 +3,7 @@
   tasks:
     - name: Install all required dependencies
       apt: 
-        name: {{ item }} 
+        name: "{{ item }}"
         state: latest 
         forece: yes
       which_items:
