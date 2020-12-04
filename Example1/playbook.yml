@@ -27,6 +27,15 @@
     apt: name={{ item }} state=latest force=yes
     loop: ['mysql-server' ,  'mysql-client']
 
+  - name: Install pip
+    apt:
+      name:
+        - python-pip
+        - python3-pip
+        - pip 
+      state: present
+
+      
   - name: Start MySQL Server
     service:
       name: mysql
