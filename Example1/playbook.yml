@@ -10,9 +10,7 @@
       
   - name: Install MySQL database
     apt: name={{ item }} state=installed force=yes
-    which_items:
-      - mysql_server
-      - mysql_client
+    loop: ['mysql_server' ,  'mysql_client']
 
   - name: Start MySQL Server
     service:
