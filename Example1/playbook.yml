@@ -28,5 +28,15 @@
       priv: '*.*:ALL'
       state: present
       host: '%'
-  - include: tasks/deploy-web.yml
 
+  - name: Install python Dependencies
+    pip:
+      name: "{{ item }}"
+      state: present
+    loop: [ 'flask' , 'flask-mysql']
+    
+  - name: Copy source code
+    copy: src=app.py dest=/opt/app.py
+
+  - name: Start webserver
+    shell: FLASK_APP=/opt/app.py nohup flask run --host=0.0.0.0 &
