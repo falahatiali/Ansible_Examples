@@ -3,6 +3,7 @@
   tasks:
   - name: Update apt-get repo and cache
     apt: update_cache=yes force_apt_get=yes cache_valid_time=3600  
+
   # - name: Install all required dependencies
   #   apt:
   #     name: "{{ item }}"
@@ -14,6 +15,10 @@
   #     - build-essential
   #     - python-pip
   #     - python-mysqldb
+
+  - name: Install required system packages
+    apt: name={{ item }} state=latest update_cache=yes
+    loop: [ 'python', 'python-setuptools', 'python-dev', 'build-essential', 'python-pip', 'curl', 'python-mysqldb']
 
   - include: tasks/deploy-db.yml
   - include: tasks/deploy-web.yml
