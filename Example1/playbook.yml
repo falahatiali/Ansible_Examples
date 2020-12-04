@@ -6,14 +6,15 @@
     - group_vars/db.yml
   tasks:
   - name: Install python-apt
-    apt:
-      name:
-        - python-pymysql
-        - python3-pymysql
-        - python-apt
-        - python3-apt
-    state: latest
-    
+    apt: 
+      name: python3-apt 
+      state: latest 
+      update_cache: yes
+
+  - name: Install required system packages
+    apt: name={{ item }} state=latest update_cache=yes
+    loop: [ 'python-pymysql', 'python3-pymysql', 'python-apt', 'python3-apt']
+
   - name: Install aptitude using apt
     apt: name=aptitude state=latest update_cache=yes force_apt_get=yes
 
