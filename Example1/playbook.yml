@@ -8,10 +8,10 @@
   - name: Install python-apt
     apt:
       name:
-      - python-pymysql
-      - python3-pymysql
-      - python-apt
-      - python3-apt
+        - python-pymysql
+        - python3-pymysql
+        - python-apt
+        - python3-apt
     state: latest
 
   - name: Install aptitude using apt
