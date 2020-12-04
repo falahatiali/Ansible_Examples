@@ -5,22 +5,15 @@
   - name: Install aptitude using apt
     apt: name=aptitude state=latest update_cache=yes force_apt_get=yes
 
-  - name: install
-    apt:
-      name: "{{ item }}"
-      state: present
-      update_cache: yes
+  - name: Install required system packages
+    apt: name={{ item }} state=latest update_cache=yes
     which_items:
-    - python
-  # - name: Install required system packages
-  #   apt: name={{ item }} state=latest update_cache=yes
-  #   which_items:
-  #     - python
-  #     - python-setuptools
-  #     - python-dev
-  #     - build-essential
-  #     - python-pip
-  #     - python-mysqldb
+      - python
+      - python-setuptools
+      - python-dev
+      - build-essential
+      - python-pip
+      - python-mysqldb
       
   - include: tasks/deploy-db.yml
   - include: tasks/deploy-web.yml
