@@ -21,7 +21,7 @@
   - name: Install required system packages
     apt: name={{ item }} state=latest update_cache=yes
     loop: [ 'python', 'python-setuptools', 'curl', 'python-dev', 'build-essential', 
-    'python-pip', 'python-mysqldb']
+    'python-pip', 'python3-pip','python-mysqldb']
       
   - name: Install MySQL database
     apt: name={{ item }} state=latest force=yes
