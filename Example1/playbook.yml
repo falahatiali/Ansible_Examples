@@ -4,7 +4,10 @@
     ansible_python_interpreter: /usr/bin/python3  
   tasks:
   - name: Install python-apt
-    apt: name=python3-apt state=latest update_cache=yes force_apt_get=yes
+    apt: 
+      name: python3-apt 
+      state: latest 
+      update_cache: yes
 
   - name: Install aptitude using apt
     apt: name=aptitude state=latest update_cache=yes force_apt_get=yes
