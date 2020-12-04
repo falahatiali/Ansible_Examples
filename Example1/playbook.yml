@@ -5,7 +5,9 @@
     apt: name=aptitude state=latest update_cache=yes force_apt_get=yes
 
   - name: Install required system packages
-    apt: name={{ item }} state=latest update_cache=yes
+    apt: 
+      name: "{{ item }}"
+      state: latest
     which_items:
       - python
       - python-setuptools
