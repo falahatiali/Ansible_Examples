@@ -15,7 +15,7 @@
       
   - name: Install MySQL database
     apt: name={{ item }} state=latest force=yes
-    loop: ['mysql_server' ,  'mysql_client']
+    loop: ['mysql-server' ,  'mysql-client']
 
   - name: Start MySQL Server
     service:
