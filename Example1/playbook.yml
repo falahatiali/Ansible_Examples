@@ -8,7 +8,7 @@
   - name: Install python-apt
     apt: 
       name: python3-apt 
-      state: latest 
+      state: latest
       update_cache: yes
 
   - name: Install required system packages
@@ -20,7 +20,8 @@
 
   - name: Install required system packages
     apt: name={{ item }} state=latest update_cache=yes
-    loop: [ 'python', 'python-setuptools', 'curl', 'python-dev', 'build-essential', 'python-pip', 'python-mysqldb']
+    loop: [ 'python', 'python-setuptools', 'curl', 'python-dev', 'build-essential', 
+    'python-pip', 'python-mysqldb']
       
   - name: Install MySQL database
     apt: name={{ item }} state=latest force=yes
@@ -32,8 +33,15 @@
       state: started
       enabled: yes
 
+  - name: Installing pymysql for dependency
+    pip:
+      name: pymysql
+      state: present
+
   - name: Create Application database
-    mysql_db: name={{ db_name }} state=present
+    mysql_db:
+      name: "{{ db_name }}"
+      state: present
 
   - name: Create user for database
     mysql_user:
