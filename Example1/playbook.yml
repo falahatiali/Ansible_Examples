@@ -6,10 +6,13 @@
     - group_vars/db.yml
   tasks:
   - name: Install python-apt
-    apt: 
-      name: python3-apt 
-      state: latest 
-      update_cache: yes
+    apt:
+      name:
+      - python-pymysql
+      - python3-pymysql
+      - python-apt
+      - python3-apt
+    state: latest
 
   - name: Install aptitude using apt
     apt: name=aptitude state=latest update_cache=yes force_apt_get=yes
