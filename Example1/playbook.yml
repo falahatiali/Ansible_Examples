@@ -2,6 +2,8 @@
   hosts: all
   vars:
     ansible_python_interpreter: /usr/bin/python3  
+  vars_files:
+    - group_vars/db.yml
   tasks:
   - name: Install python-apt
     apt: 
