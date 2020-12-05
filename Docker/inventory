@@ -1,0 +1,18 @@
+[all]
+master1 ansible_host=172.17.0.3 ansible_ssh_pass=Passw0rd
+master2 ansible_host=172.17.0.4 ansible_ssh_pass=Passw0rd
+master3 ansible_host=172.17.0.5 ansible_ssh_pass=Passw0rd
+worker1 ansible_host=172.17.0.7 ansible_ssh_pass=Passw0rd
+worker2 ansible_host=172.17.0.8 ansible_ssh_pass=Passw0rd
+worker3 ansible_host=172.17.0.9 ansible_ssh_pass=Passw0rd
+
+[masters]
+master1 ansible_host=172.17.0.3 ansible_ssh_pass=Passw0rd
+master2 ansible_host=172.17.0.4 ansible_ssh_pass=Passw0rd
+master3 ansible_host=172.17.0.5 ansible_ssh_pass=Passw0rd
+
+
+[workers]
+worker1 ansible_host=172.17.0.7 ansible_ssh_pass=Passw0rd
+worker2 ansible_host=172.17.0.8 ansible_ssh_pass=Passw0rd
+worker3 ansible_host=172.17.0.9 ansible_ssh_pass=Passw0rd
