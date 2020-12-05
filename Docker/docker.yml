@@ -48,16 +48,12 @@
     #     state: present
     #     update_cache: yes
 
-    - name: Pull default Docker image
-      docker_image:
-        name: "{{ default_container_image }}"
-        source: pull
+    - name: Enable Docker Service
+      service:
+        name: docker
+        enabled: true
 
-    # Creates the number of containers defined by the variable create_containers, using values from vars file
-    - name: Create default containers
-      docker_container:
-        name: "{{ default_container_name }}{{ item }}"
-        image: "{{ default_container_image }}"
-        command: "{{ default_container_command }}"
-        state: present
-      with_sequence: count={{ create_containers }}
+    - name: Start Docker Service
+      service:
+        name: docker
+        state: started
