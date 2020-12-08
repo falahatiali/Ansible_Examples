@@ -1,0 +1,18 @@
+- name: Install docker on servers
+  hosts: all
+  vars:
+    ansible_python_interpreter: /usr/bin/python3  
+  vars_files:
+    - group_vars/default.yml
+  tasks:
+    - name: Ensure group "docker" exists with correct gid
+      group:
+        name: docker
+        state: present
+
+    - name: Adding user {{ user }}
+      user: 
+        name: ansible
+        group: docker 
+        shell: /bin/bash 
+        append: yes        

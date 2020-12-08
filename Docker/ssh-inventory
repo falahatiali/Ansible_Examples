@@ -1,0 +1,11 @@
+[all]
+master1
+master2
+master3
+worker1
+worker2
+
+
+[py3-hosts:vars]
+ansible_python_interpreter=/usr/bin/python3
+
