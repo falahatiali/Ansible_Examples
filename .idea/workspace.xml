@@ -20,9 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e24526-8f61-425f-ad12-cfc531dfbdc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/files/iptables-see-bridge.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/playbook4-install-docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/playbook5-masters-preparations.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/inventory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/playbook.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +67,12 @@
     <property name="settings.editor.selected.configurable" value="orchideLicense" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kubernetes/masters-preparation/files" />
+      <recent name="$PROJECT_DIR$/kubernetes/masters-preparation/templates" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +85,7 @@
       <workItem from="1608054512946" duration="5921000" />
       <workItem from="1608061712748" duration="1806000" />
       <workItem from="1608145840235" duration="4427000" />
-      <workItem from="1608191141355" duration="4243000" />
+      <workItem from="1608191141355" duration="9566000" />
     </task>
     <servers />
   </component>
