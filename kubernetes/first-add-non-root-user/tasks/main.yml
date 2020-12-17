@@ -15,6 +15,6 @@
     validate: 'visudo -cf %s'
 
 - name: Setup authorized keys for ansible user
-  authorized_key: user=ansible key="{{ item }}"
+  authorized_key: user=ansible key="{{item}}"
   with_file:
     - /home/ansible/.ssh/id_rsa.pub

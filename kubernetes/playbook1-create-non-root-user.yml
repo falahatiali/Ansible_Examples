@@ -1,6 +1,7 @@
 - name: Install Kubernetes
   hosts: all
-  become: yes
+  become: true
+  any_errors_fatal: true
   vars:
     ansible_python_interpreter: /usr/bin/python3
   roles:

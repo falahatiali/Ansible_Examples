@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1e24526-8f61-425f-ad12-cfc531dfbdc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/install-docker/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/files/iptables-see-bridge.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/masters-preparation/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/playbook4-install-docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/playbook5-masters-preparations.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lherEBfQs5b5gXnUQzPyovwIbQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.ansible/roles" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="orchideLicense" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kubernetes/masters-preparation/files" />
+      <recent name="$PROJECT_DIR$/kubernetes/masters-preparation/templates" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1e24526-8f61-425f-ad12-cfc531dfbdc2" name="Default Changelist" comment="" />
+      <created>1608053946954</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608053946954</updated>
+      <workItem from="1608053948113" duration="540000" />
+      <workItem from="1608054512946" duration="5921000" />
+      <workItem from="1608061712748" duration="1806000" />
+      <workItem from="1608145840235" duration="4427000" />
+      <workItem from="1608191141355" duration="9566000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="416" y="199" width="596" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608061666125">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="416" y="199" width="596" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1294.741@72.27.1294.741" timestamp="1608061666125" />
+    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1608056963056">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1608056963056" />
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1608061733829">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1608061733829" />
+    <state x="444" y="300" width="540" height="201" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1608060856300">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="444" y="300" width="540" height="201" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1294.741@72.27.1294.741" timestamp="1608060856300" />
+  </component>
+</project>
