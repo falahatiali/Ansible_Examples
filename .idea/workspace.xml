@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e24526-8f61-425f-ad12-cfc531dfbdc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/kubernetes/first-add-non-root-user/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/first-add-non-root-user/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/playbook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/inventory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/playbook.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +44,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/.ansible/roles" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="orchideLicense" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,7 +61,10 @@
       <option name="presentableId" value="Default" />
       <updated>1608053946954</updated>
       <workItem from="1608053948113" duration="540000" />
-      <workItem from="1608054512946" duration="3964000" />
+      <workItem from="1608054512946" duration="5921000" />
+      <workItem from="1608061712748" duration="1806000" />
+      <workItem from="1608145840235" duration="4427000" />
+      <workItem from="1608191141355" duration="4243000" />
     </task>
     <servers />
   </component>
@@ -76,14 +83,25 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="416" y="199" width="596" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608055628182">
+    <state x="416" y="199" width="596" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608061666125">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="416" y="199" width="596" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1294.741@72.27.1294.741" timestamp="1608055628182" />
+    <state x="416" y="199" width="596" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1294.741@72.27.1294.741" timestamp="1608061666125" />
     <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1608056963056">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1608056963056" />
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1608061733829">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1608061733829" />
+    <state x="444" y="300" width="540" height="201" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1608060856300">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="444" y="300" width="540" height="201" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1294.741@72.27.1294.741" timestamp="1608060856300" />
   </component>
 </project>
